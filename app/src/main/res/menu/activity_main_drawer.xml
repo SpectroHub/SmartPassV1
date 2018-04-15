@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_recarga"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Recarga" />
+        <item
+            android:id="@+id/nav_pontos_recarga"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Pontos Recarga" />
+        <item
+            android:id="@+id/nav_bloqueio"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bloqueio" />
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Ajuda" />
+    </group>
+
+
+
+
+</menu>
